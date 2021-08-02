@@ -1,0 +1,47 @@
+Template,Parameter,Label
+<:NUM:> len: <:NUM:> time: <:NUM:>.<:NUM:>,"['200', '1583', '0', '1919448']",Anomaly
+3edec1e4-<:NUM:>-4a3a-a21b-a145a4ee5e61] Creating image,['9678'],Anomaly
+2b590f10-49fd-4ec9-ae41-19596c2f4b25] VM Stopped (Lifecycle Event),[],Anomaly
+,[],Anomaly
+<:*:> VM <:*:> (Lifecycle Event),"['3edec1e4-9678-4a3a-a21b-a145a4ee5e61]', 'Started']",Anomaly
+3edec1e4-<:NUM:>-4a3a-a21b-a145a4ee5e61] During sync power state the instance has a pending task (spawning). Skip.,['9678'],Anomaly
+checking,[],Anomaly
+"in use: on this node <:NUM:> local, <:NUM:> on other nodes sharing this instance storage","['1', '0']",Anomaly
+/var/lib/nova/instances/ base/<:SEQ:>,['a489c868f0c37da93b76227c91bb03908ac0e742'],Anomaly
+3edec1e4-<:NUM:>-4a3a-a21b-a145a4ee5e61] Instance spawned successfully.,['9678'],Anomaly
+3edec1e4-<:NUM:>-4a3a-a21b-a145a4ee5e61] Took <:NUM:>.<:NUM:> seconds to spawn the instance on the hypervisor.,"['9678', '20', '58']",Anomaly
+3edec1e4-<:NUM:>-4a3a-a21b-a145a4ee5e61] Took <:NUM:>.<:NUM:> seconds to build instance.,"['9678', '21', '38']",Anomaly
+3edec1e4-<:NUM:>-4a3a-a21b-a145a4ee5e61] Terminating instance,['9678'],Anomaly
+3edec1e4-<:NUM:>-4a3a-a21b-a145a4ee5e61] Instance <:*:> successfully.,"['9678', 'destroyed']",Anomaly
+3edec1e4-<:NUM:>-4a3a-a21b-a145a4ee5e61] Deleting instance files /var/lib/nova/instances/3edec1e4-<:NUM:>-4a3a-a21b-a145a4ee5e61 del,"['9678', '9678']",Anomaly
+3edec1e4-<:NUM:>-4a3a-a21b-a145a4ee5e61] Deletion of /var/lib/nova/instances/3edec1e4-<:NUM:>-4a3a-a21b-a145a4ee5e61 del complete,"['9678', '9678']",Anomaly
+3edec1e4-<:NUM:>-4a3a-a21b-a145a4ee5e61] Took <:NUM:>.<:NUM:> seconds to <:*:> the instance on the hypervisor.,"['9678', '0', '99', 'destroy']",Anomaly
+3edec1e4-<:NUM:>-4a3a-a21b-a145a4ee5e61] Took <:NUM:>.<:NUM:> seconds to deallocate network for instance.,"['9678', '0', '47']",Anomaly
+No instances found for any event,[],Anomaly
+"3416d0fa-6f0f-41ce-9c0a-59ae9a735da8] Attempting claim: memory <:NUM:> MB, disk <:NUM:> GB, vcpus <:NUM:> CPU","['2048', '20', '1']",Anomaly
+"3416d0fa-6f0f-41ce-9c0a-59ae9a735da8] Total memory: <:NUM:> MB, used: <:NUM:>.<:NUM:> MB","['64172', '512', '00']",Anomaly
+"3416d0fa-6f0f-41ce-9c0a-59ae9a735da8] <:*:> <:*:> <:*:> MB, <:*:> <:NUM:>.<:NUM:> MB","['memory', 'limit:', '96258.00', 'free:', '95746', '00']",Anomaly
+"3416d0fa-6f0f-41ce-9c0a-59ae9a735da8] Total disk: <:NUM:> GB, used: <:NUM:>.<:NUM:> GB","['15', '0', '00']",Anomaly
+"3416d0fa-6f0f-41ce-9c0a-59ae9a735da8] disk limit not specified, defaulting to unlimited",[],Anomaly
+3416d0fa-6f0f-41ce-9c0a-59ae9a735da8] Total <:*:> <:NUM:> <:*:> used: <:NUM:>.<:NUM:> <:*:>,"['vcpu:', '16', 'VCPU,', '0', '00', 'VCPU']",Anomaly
+"3416d0fa-6f0f-41ce-9c0a-59ae9a735da8] <:*:> limit not specified, defaulting to unlimited",['vcpu'],Anomaly
+3416d0fa-6f0f-41ce-9c0a-59ae9a735da8] Claim successful,[],Anomaly
+<:*:> Creating image,['3416d0fa-6f0f-41ce-9c0a-59ae9a735da8]'],Anomaly
+"<:NUM:>, total allocated vcpus: <:NUM:>","['16', '1']",Anomaly
+name=cp-<:NUM:>.slowvm1.tcloud-pg0.utah.cloudlab.us phys ram=64172MB used ram=2560MB phys disk=15GB used disk=20GB total vcpus=<:NUM:> used vcpus=<:NUM:> pci stats=[],"['1', '16', '1']",Anomaly
+<:*:> During sync power state the instance has a pending task (spawning). Skip.,['3416d0fa-6f0f-41ce-9c0a-59ae9a735da8]'],Anomaly
+<:*:> Instance <:*:> successfully.,"['3416d0fa-6f0f-41ce-9c0a-59ae9a735da8]', 'spawned']",Anomaly
+<:*:> Took <:NUM:>.<:NUM:> seconds to <:*:> the instance on the hypervisor.,"['3416d0fa-6f0f-41ce-9c0a-59ae9a735da8]', '20', '35', 'spawn']",Anomaly
+<:*:> Took <:NUM:>.<:NUM:> seconds to build instance.,"['3416d0fa-6f0f-41ce-9c0a-59ae9a735da8]', '21', '13']",Anomaly
+<:*:> Terminating instance,['3416d0fa-6f0f-41ce-9c0a-59ae9a735da8]'],Anomaly
+<:*:> Deleting instance files <:*:> del,"['3416d0fa-6f0f-41ce-9c0a-59ae9a735da8]', '/var/lib/nova/instances/3416d0fa-6f0f-41ce-9c0a-59ae9a735da8']",Anomaly
+<:*:> Deletion of <:*:> del complete,"['3416d0fa-6f0f-41ce-9c0a-59ae9a735da8]', '/var/lib/nova/instances/3416d0fa-6f0f-41ce-9c0a-59ae9a735da8']",Anomaly
+<:*:> Took <:NUM:>.<:NUM:> seconds to deallocate network for instance.,"['3416d0fa-6f0f-41ce-9c0a-59ae9a735da8]', '0', '54']",Anomaly
+"<:*:> Attempting claim: memory <:NUM:> MB, disk <:NUM:> GB, vcpus <:NUM:> CPU","['874ffb7b-49b3-4c6d-a2e9-35bf272650b1]', '2048', '20', '1']",Anomaly
+<:*:> Total <:*:> <:NUM:> <:*:> used: <:NUM:>.<:NUM:> <:*:>,"['874ffb7b-49b3-4c6d-a2e9-35bf272650b1]', 'memory:', '64172', 'MB,', '512', '00', 'MB']",Anomaly
+"874ffb7b-49b3-4c6d-a2e9-35bf272650b1] memory limit: <:NUM:>.<:NUM:> MB, free: <:NUM:>.<:NUM:> MB","['96258', '00', '95746', '00']",Anomaly
+"<:*:> <:*:> limit not specified, defaulting to unlimited","['874ffb7b-49b3-4c6d-a2e9-35bf272650b1]', 'disk']",Anomaly
+<:*:> Claim successful,['874ffb7b-49b3-4c6d-a2e9-35bf272650b1]'],Anomaly
+"<:*:> memory limit: <:NUM:>.<:NUM:> MB, free: <:NUM:>.<:NUM:> MB","['748f18b4-88e3-4b60-822a-f2b25fac50b2]', '96258', '00', '95746', '00']",Anomaly
+name=cp-<:NUM:>.slowvm1.tcloud-pg0.utah.cloudlab.us phys ram=64172MB used <:*:> phys disk=15GB used <:*:> total vcpus=<:NUM:> used vcpus=<:NUM:> pci stats=[],"['1', 'ram=512MB', 'disk=0GB', '16', '0']",Anomaly
+"b93203d4-c79b-41fe-<:NUM:>-5f2b89b0d081, exception: Requested operation is not valid: cpu affinity is not supported",['8090'],Anomaly

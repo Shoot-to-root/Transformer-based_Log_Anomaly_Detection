@@ -1,0 +1,57 @@
+Template,Parameter,Label
+<:NUM:> len: <:NUM:> time: <:NUM:>.<:NUM:>,"['200', '1893', '0', '2477829']",Normal
+b9000564-fe1a-409b-b8cc-1e88b294cd1d] VM Started (Lifecycle Event),[],Normal
+b9000564-fe1a-409b-b8cc-1e88b294cd1d] VM <:*:> (Lifecycle Event),['Paused'],Normal
+b9000564-fe1a-409b-b8cc-1e88b294cd1d] During sync power state the instance has a pending task (spawning). Skip.,[],Normal
+checking,[],Normal
+"in use: on this node <:NUM:> local, <:NUM:> on other nodes sharing this instance storage","['1', '0']",Normal
+/var/lib/nova/instances/ base/<:SEQ:>,['a489c868f0c37da93b76227c91bb03908ac0e742'],Normal
+,[],Normal
+b9000564-fe1a-409b-b8cc-1e88b294cd1d] Instance spawned successfully.,[],Normal
+b9000564-fe1a-409b-b8cc-1e88b294cd1d] Took <:NUM:>.<:NUM:> seconds to spawn the instance on the hypervisor.,"['19', '05']",Normal
+b9000564-fe1a-409b-b8cc-1e88b294cd1d] Took <:NUM:>.<:NUM:> seconds to build instance.,"['19', '84']",Normal
+"<:NUM:>, total allocated vcpus: <:NUM:>","['16', '1']",Normal
+name=cp-<:NUM:>.slowvm1.tcloud-pg0.utah.cloudlab.us phys ram=64172MB used ram=2560MB phys disk=15GB used disk=20GB total vcpus=<:NUM:> used vcpus=<:NUM:> pci stats=[],"['1', '16', '1']",Normal
+b9000564-fe1a-409b-b8cc-1e88b294cd1d] Terminating instance,[],Normal
+b9000564-fe1a-409b-b8cc-1e88b294cd1d] Instance <:*:> successfully.,['destroyed'],Normal
+b9000564-fe1a-409b-b8cc-1e88b294cd1d] Deleting instance files /var/lib/nova/instances/b9000564-fe1a-409b-b8cc-1e88b294cd1d del,[],Normal
+b9000564-fe1a-409b-b8cc-1e88b294cd1d] Deletion of /var/lib/nova/instances/b9000564-fe1a-409b-b8cc-1e88b294cd1d del complete,[],Normal
+b9000564-fe1a-409b-b8cc-1e88b294cd1d] Took <:NUM:>.<:NUM:> seconds to <:*:> the instance on the hypervisor.,"['1', '03', 'destroy']",Normal
+b9000564-fe1a-409b-b8cc-1e88b294cd1d] Took <:NUM:>.<:NUM:> seconds to deallocate network for instance.,"['0', '48']",Normal
+No instances found for any event,[],Normal
+"96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Attempting claim: memory <:NUM:> MB, disk <:NUM:> GB, vcpus <:NUM:> CPU","['2048', '20', '1']",Normal
+"96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Total memory: <:NUM:> MB, used: <:NUM:>.<:NUM:> MB","['64172', '512', '00']",Normal
+"96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] <:*:> <:*:> <:*:> MB, <:*:> <:NUM:>.<:NUM:> MB","['memory', 'limit:', '96258.00', 'free:', '95746', '00']",Normal
+"96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Total disk: <:NUM:> GB, used: <:NUM:>.<:NUM:> GB","['15', '0', '00']",Normal
+"96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] disk limit not specified, defaulting to unlimited",[],Normal
+96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Total <:*:> <:NUM:> <:*:> used: <:NUM:>.<:NUM:> <:*:>,"['vcpu:', '16', 'VCPU,', '0', '00', 'VCPU']",Normal
+"96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] <:*:> limit not specified, defaulting to unlimited",['vcpu'],Normal
+96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Claim successful,[],Normal
+96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Creating image,[],Normal
+<:*:> VM <:*:> (Lifecycle Event),"['96abccce-8d1f-4e07-b6d1-4b2ab87e23b4]', 'Started']",Normal
+<:*:> During sync power state the instance has a pending task (spawning). Skip.,['96abccce-8d1f-4e07-b6d1-4b2ab87e23b4]'],Normal
+<:*:> Instance <:*:> successfully.,"['96abccce-8d1f-4e07-b6d1-4b2ab87e23b4]', 'spawned']",Normal
+<:*:> Took <:NUM:>.<:NUM:> seconds to <:*:> the instance on the hypervisor.,"['96abccce-8d1f-4e07-b6d1-4b2ab87e23b4]', '19', '96', 'spawn']",Normal
+<:*:> Took <:NUM:>.<:NUM:> seconds to build instance.,"['96abccce-8d1f-4e07-b6d1-4b2ab87e23b4]', '20', '71']",Normal
+<:*:> Terminating instance,['96abccce-8d1f-4e07-b6d1-4b2ab87e23b4]'],Normal
+<:*:> Deleting instance files <:*:> del,"['96abccce-8d1f-4e07-b6d1-4b2ab87e23b4]', '/var/lib/nova/instances/96abccce-8d1f-4e07-b6d1-4b2ab87e23b4']",Normal
+<:*:> Deletion of <:*:> del complete,"['96abccce-8d1f-4e07-b6d1-4b2ab87e23b4]', '/var/lib/nova/instances/96abccce-8d1f-4e07-b6d1-4b2ab87e23b4']",Normal
+<:*:> Took <:NUM:>.<:NUM:> seconds to deallocate network for instance.,"['96abccce-8d1f-4e07-b6d1-4b2ab87e23b4]', '0', '52']",Normal
+"<:*:> Attempting claim: memory <:NUM:> MB, disk <:NUM:> GB, vcpus <:NUM:> CPU","['b562ef10-ba2d-48ae-bf4a-18666cba4a51]', '2048', '20', '1']",Normal
+<:*:> Total <:*:> <:NUM:> <:*:> used: <:NUM:>.<:NUM:> <:*:>,"['b562ef10-ba2d-48ae-bf4a-18666cba4a51]', 'memory:', '64172', 'MB,', '512', '00', 'MB']",Normal
+"b562ef10-ba2d-48ae-bf4a-18666cba4a51] memory limit: <:NUM:>.<:NUM:> MB, free: <:NUM:>.<:NUM:> MB","['96258', '00', '95746', '00']",Normal
+"<:*:> <:*:> limit not specified, defaulting to unlimited","['b562ef10-ba2d-48ae-bf4a-18666cba4a51]', 'disk']",Normal
+<:*:> Claim successful,['b562ef10-ba2d-48ae-bf4a-18666cba4a51]'],Normal
+<:*:> Creating image,['b562ef10-ba2d-48ae-bf4a-18666cba4a51]'],Normal
+"<:*:> memory limit: <:NUM:>.<:NUM:> MB, free: <:NUM:>.<:NUM:> MB","['78dc1847-8848-49cc-933e-9239b12c9dcf]', '96258', '00', '95746', '00']",Normal
+name=cp-<:NUM:>.slowvm1.tcloud-pg0.utah.cloudlab.us phys ram=64172MB used <:*:> phys disk=15GB used <:*:> total vcpus=<:NUM:> used vcpus=<:NUM:> pci stats=[],"['1', 'ram=512MB', 'disk=0GB', '16', '0']",Normal
+"98e9712a-cd1a-<:NUM:>-<:NUM:>-2be57eb33299, exception: Requested operation is not valid: cpu affinity is not supported","['4619', '9590']",Normal
+<:*:> During sync power state the instance has a pending task <:*:> Skip.,"['1dbcdff4-2bc2-431f-9444-b2e855d74da5]', '(deleting).']",Normal
+Disk info file is invalid: qemu-img failed to execute on /var/lib/nova/instances/16797a0f-32fb-494c-8f36-38588148c35d/disk : Unexpected error while running command.,[],Normal
+/usr/bin/python -m oslo concurrency.prlimit --as=<:NUM:> --cpu=<:NUM:> -- env LC ALL=C LANG=C qemu-img info /var/lib/nova/instances/16797a0f-32fb-494c-8f36-38588148c35d/disk,"['1073741824', '2']",Normal
+<:NUM:>,['1'],Normal
+u'',[],Normal
+"u""qemu-img: Could not open '/var/lib/nova/instances/16797a0f-32fb-494c-8f36-38588148c35d/disk': Could not open '/var/lib/nova/instances/16797a0f-32fb-494c-8f36-38588148c35d/disk': No such file or directory\n""",[],Normal
+<:*:> exception: Requested operation is not valid: cpu affinity is not supported,"['cc2b4649-9cf0-4dfc-a2f6-26bb55fd0e93,']",Normal
+"<!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML <:NUM:>.<:NUM:>//EN"">","['2', '0']",Normal
+Failed to fetch token data from identity server,[],Normal

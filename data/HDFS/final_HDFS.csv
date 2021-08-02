@@ -1,0 +1,118 @@
+Template,Parameter,Label
+Receiving block blk -<:SEQ:> src: /<:IP:>:<:NUM:> dest: /<:IP:>:<:NUM:>,"['1608999687919862906', '10.250.19.102', '54106', '10.250.19.102', '50010']",Normal
+BLOCK* NameSystem.allocateBlock: /mnt/hadoop/mapred/system/job <:NUM:> <:NUM:>/job.jar. blk -<:SEQ:>,"['200811092030', '0001', '1608999687919862906']",Normal
+PacketResponder <:NUM:> for block blk -<:SEQ:> terminating,"['1', '1608999687919862906']",Normal
+Received block blk -<:SEQ:> of size <:NUM:> from /<:IP:>,"['1608999687919862906', '91178', '10.250.10.6']",Normal
+BLOCK* NameSystem.addStoredBlock: blockMap updated: <:IP:>:<:NUM:> is added to blk -<:SEQ:> size <:NUM:>,"['10.250.10.6', '50010', '1608999687919862906', '91178']",Normal
+Receiving block blk <:*:> src: /<:IP:>:<:NUM:> dest: /<:IP:>:<:NUM:>,"['7503483334202473044', '10.251.215.16', '55695', '10.251.215.16', '50010']",Normal
+BLOCK* NameSystem.allocateBlock: /mnt/hadoop/mapred/system/job <:NUM:> <:*:> blk <:*:>,"['200811092030', '0001/job.split.', '7503483334202473044']",Normal
+Received block blk -<:SEQ:> src: /<:IP:>:<:NUM:> dest: /<:IP:>:<:NUM:> of size <:NUM:>,"['1608999687919862906', '10.251.215.16', '52002', '10.251.215.16', '50010', '91178']",Normal
+PacketResponder <:NUM:> for block blk <:*:> terminating,"['1', '7503483334202473044']",Normal
+Received block blk <:*:> of size <:NUM:> from /<:IP:>,"['7503483334202473044', '233217', '10.251.215.16']",Normal
+<:IP:>:<:NUM:>:Transmitted block blk -<:SEQ:> to /<:IP:>:<:NUM:>,"['10.250.14.224', '50010', '1608999687919862906', '10.251.215.16', '50010']",Normal
+"<:IP:>:<:NUM:> Starting thread to transfer block blk -<:SEQ:> to <:IP:>:<:NUM:>, <:IP:>:<:NUM:>","['10.250.14.224', '50010', '1608999687919862906', '10.251.215.16', '50010', '10.251.71.193', '50010']",Normal
+BLOCK* ask <:IP:>:<:NUM:> to replicate blk -<:SEQ:> to datanode(s) <:IP:>:<:NUM:> <:IP:>:<:NUM:>,"['10.250.14.224', '50010', '1608999687919862906', '10.251.215.16', '50010', '10.251.71.193', '50010']",Normal
+BLOCK* NameSystem.addStoredBlock: blockMap updated: <:IP:>:<:NUM:> is added to blk <:*:> size <:NUM:>,"['10.251.106.10', '50010', '7503483334202473044', '233217']",Normal
+<:IP:>:<:NUM:> Served block blk -<:SEQ:> to /<:IP:>,"['10.250.11.100', '50010', '3544583377289625738', '10.250.19.102']",Anomaly
+BLOCK* NameSystem.allocateBlock: /user/root/rand/ logs/history/ip-<:NUM:>-<:NUM:>-<:NUM:>-<:NUM:>.ec2.internal <:NUM:> job <:NUM:> <:NUM:> conf.xml. blk -<:SEQ:>,"['10', '250', '19', '102', '1226291400491', '200811092030', '0001', '9073992586687739851']",Normal
+<:IP:>:<:NUM:> Served block blk <:*:> to /<:IP:>,"['10.251.215.16', '50010', '7503483334202473044', '10.250.19.102']",Normal
+BLOCK* NameSystem.allocateBlock: /user/root/rand/ temporary/ task <:NUM:> <:NUM:> m <:NUM:> <:NUM:>/part-<:NUM:>. blk <:SEQ:>,"['200811092030', '0001', '000079', '0', '00079', '7854771516489510256']",Normal
+BLOCK* ask <:IP:>:<:NUM:> to replicate blk -<:SEQ:> to datanode(s) <:IP:>:<:NUM:>,"['10.251.31.5', '50010', '1608999687919862906', '10.251.90.64', '50010']",Normal
+BLOCK* NameSystem.allocateBlock: /user/root/rand/ temporary/ task <:NUM:> <:NUM:> m <:NUM:> <:NUM:>/part-<:NUM:>. blk <:*:>,"['200811092030', '0001', '000121', '0', '00121', '-2519617320378473615']",Normal
+<:IP:>:<:NUM:> Starting thread to transfer block blk -<:SEQ:> to <:IP:>:<:NUM:>,"['10.251.31.5', '50010', '1608999687919862906', '10.251.90.64', '50010']",Normal
+Verification succeeded for blk -<:SEQ:>,['9073992586687739851'],Normal
+writeBlock blk -<:SEQ:> received exception java.net.SocketTimeoutException,['3102267849859399193'],Anomaly
+PacketResponder blk -<:SEQ:> <:NUM:> Exception java.io.EOFException,"['3102267849859399193', '2']",Anomaly
+Verification succeeded for blk <:*:>,['38865049064139660'],Normal
+writeBlock blk <:SEQ:> received exception java.io.IOException: Could not read from stream,['7648436334209344608'],Anomaly
+writeBlock blk <:*:> received exception java.io.IOException: Could not read from stream,['-5447417104355795463'],Anomaly
+Deleting block blk -<:SEQ:> file /mnt/hadoop/dfs/data/current/subdir39/blk -<:SEQ:>,"['8213344449220111733', '8213344449220111733']",Anomaly
+Receiving empty packet for block blk -<:SEQ:>,['3842070622043972712'],Anomaly
+Receiving empty packet for block blk <:*:>,['7621437832633701631'],Anomaly
+Deleting block blk -<:SEQ:> file <:*:> -<:SEQ:>,"['6899869435641005946', '/mnt/hadoop/dfs/data/current/subdir12/blk', '6899869435641005946']",Normal
+BLOCK* NameSystem.allocateBlock: /user/root/rand/ <:*:> <:*:> <:*:> <:NUM:> <:*:> <:*:> <:*:> blk <:*:>,"['logs/history/ip-10-250-19-102.ec2.internal', '1226291400491', 'job', '200811092030', '0001', 'root', 'random-writer.', '-7007586470894854585']",Normal
+BLOCK* ask <:IP:>:<:NUM:> to replicate blk <:*:> to datanode(s) <:IP:>:<:NUM:>,"['10.251.199.225', '50010', '3584224065406961324', '10.251.203.179', '50010']",Anomaly
+<:IP:>:<:NUM:> Starting thread to transfer block blk <:*:> to <:IP:>:<:NUM:>,"['10.251.199.225', '50010', '3584224065406961324', '10.251.203.179', '50010']",Anomaly
+<:IP:>:<:NUM:>:Transmitted block blk <:*:> to /<:IP:>:<:NUM:>,"['10.251.127.47', '50010', '349284099419601276', '10.251.126.22', '50010']",Anomaly
+Received block blk <:*:> src: /<:IP:>:<:NUM:> dest: /<:IP:>:<:NUM:> of size <:NUM:>,"['3584224065406961324', '10.251.199.225', '55843', '10.251.199.225', '50010', '3542320']",Anomaly
+Deleting block blk <:*:> file <:*:> <:*:>,"['3557914126063085372', '/mnt/hadoop/dfs/data/current/subdir8/blk', '3557914126063085372']",Anomaly
+Exception in receiveBlock for block blk -<:SEQ:> java.io.IOException: Connection reset by peer,['3102267849859399193'],Anomaly
+writeBlock blk -<:SEQ:> received exception java.io.IOException: Connection reset by peer,['3102267849859399193'],Anomaly
+BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk <:SEQ:> on <:IP:>:<:NUM:> size <:NUM:>,"['3888635850409849568', '10.251.107.227', '50010', '67108864']",Anomaly
+PacketResponder blk <:SEQ:> <:NUM:> Exception java.net.SocketTimeoutException: <:NUM:> millis timeout while waiting for channel to be ready for read. ch : java.nio.channels.SocketChannel[connected local=/<:IP:>:<:NUM:> remote=/<:IP:>:<:NUM:>],"['4241467193520768333', '2', '120000', '10.251.107.242', '58971', '10.251.123.33', '50010']",Anomaly
+Exception in receiveBlock for block blk <:*:> java.io.IOException: Connection reset by peer,['4241467193520768333'],Anomaly
+PacketResponder blk <:SEQ:> <:NUM:> Exception java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[connected local=/<:IP:>:<:NUM:> remote=/<:IP:>:<:NUM:>]. <:NUM:> millis timeout left.,"['4241467193520768333', '1', '10.251.123.33', '39066', '10.250.7.32', '50010', '59942']",Anomaly
+writeBlock blk <:*:> received exception java.io.IOException: Connection reset by peer,['4241467193520768333'],Anomaly
+Exception in receiveBlock for block blk <:SEQ:> java.io.EOFException,['4241467193520768333'],Anomaly
+writeBlock blk <:*:> received exception <:*:>,"['4241467193520768333', 'java.io.EOFException']",Anomaly
+PacketResponder <:NUM:> for block blk <:*:> <:*:>,"['0', '4241467193520768333', 'Interrupted.']",Anomaly
+Changing block file offset of block blk <:SEQ:> from <:NUM:> to <:NUM:> meta file offset to <:NUM:>,"['4241467193520768333', '0', '30867456', '241159']",Anomaly
+BLOCK* ask <:IP:>:<:NUM:> to replicate blk <:*:> to datanode(s) <:IP:>:<:NUM:> <:IP:>:<:NUM:>,"['10.250.7.32', '50010', '101531001839995775', '10.251.199.225', '50010', '10.251.122.65', '50010']",Anomaly
+"<:IP:>:<:NUM:> Starting thread to transfer block blk <:*:> to <:IP:>:<:NUM:>, <:IP:>:<:NUM:>","['10.250.7.32', '50010', '101531001839995775', '10.251.199.225', '50010', '10.251.122.65', '50010']",Anomaly
+BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk <:*:> on <:IP:>:<:NUM:> size <:NUM:>,"['-8692505341300910301', '10.251.43.192', '50010', '67108864']",Anomaly
+PacketResponder blk <:*:> <:NUM:> Exception java.io.EOFException,"['1528078116812077719', '2']",Anomaly
+<:IP:>:<:NUM:>:Exception writing block blk <:SEQ:> to mirror <:IP:>:<:NUM:>,"['10.250.13.188', '50010', '3858821904894294369', '10.251.39.160', '50010']",Anomaly
+Exception in receiveBlock for block blk <:SEQ:> java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[connected local=/<:IP:>:<:NUM:> remote=/<:IP:>:<:NUM:>]. <:NUM:> millis timeout left.,"['3858821904894294369', '10.250.13.188', '58401', '10.251.39.160', '50010', '489996']",Anomaly
+writeBlock blk <:SEQ:> received exception java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[connected local=/<:IP:>:<:NUM:> remote=/<:IP:>:<:NUM:>]. <:NUM:> millis timeout left.,"['3858821904894294369', '10.250.13.188', '58401', '10.251.39.160', '50010', '489996']",Anomaly
+PacketResponder blk <:SEQ:> <:NUM:> Exception java.io.IOException: Broken pipe,"['3858821904894294369', '0']",Anomaly
+"writeBlock blk <:SEQ:> received exception java.io.IOException: Block blk <:SEQ:> is valid, and cannot be written to.","['992101295951175683', '992101295951175683']",Anomaly
+<:IP:>:<:NUM:>:Failed to transfer blk <:SEQ:> to <:IP:>:<:NUM:> got java.io.IOException: Connection reset by peer,"['10.251.194.147', '50010', '992101295951175683', '10.251.214.112', '50010']",Anomaly
+BLOCK* NameSystem.delete: blk -<:SEQ:> is added to invalidSet of <:IP:>:<:NUM:>,"['1608999687919862906', '10.250.10.6', '50010']",Normal
+BLOCK* NameSystem.delete: blk <:*:> is added to invalidSet of <:IP:>:<:NUM:>,"['7503483334202473044', '10.251.106.10', '50010']",Normal
+Unexpected error trying to delete block blk -<:SEQ:>. BlockInfo not found in volumeMap.,['1067131609371010449'],Anomaly
+Unexpected error trying to delete block blk <:*:> BlockInfo not found in volumeMap.,['4207153147078127808.'],Anomaly
+BLOCK* NameSystem.addStoredBlock: addStoredBlock request received for blk <:SEQ:> on <:IP:>:<:NUM:> size <:NUM:> But it does not belong to any file.,"['5398314277015661293', '10.251.199.86', '50010', '67108864']",Anomaly
+BLOCK* NameSystem.allocateBlock: <:*:> logs/history/ip-<:NUM:>-<:NUM:>-<:NUM:>-<:NUM:>.ec2.internal <:NUM:> job <:NUM:> <:NUM:> conf.xml. blk -<:SEQ:>,"['/user/root/sortrand/', '10', '250', '19', '102', '1226291400491', '200811092030', '0002', '4615135864434101729']",Normal
+<:IP:>:<:NUM:>:Got exception while serving blk -<:SEQ:> to /<:IP:>:,"['10.251.71.68', '50010', '8781759536960110370', '10.250.17.225']",Normal
+<:IP:>:<:NUM:>:Got exception while serving blk <:*:> to /<:IP:>:,"['10.251.27.63', '50010', '1732876454483854279', '10.251.27.63']",Normal
+BLOCK* NameSystem.allocateBlock: /user/root/sortrand/ logs/history/ip-<:NUM:>-<:NUM:>-<:NUM:>-<:NUM:>.ec2.internal <:NUM:> job <:NUM:> <:NUM:> root sorter. blk -<:SEQ:>,"['10', '250', '19', '102', '1226291400491', '200811092030', '0002', '8950178633263590328']",Normal
+BLOCK* NameSystem.allocateBlock: /user/root/sortrand/ <:*:> <:*:> <:*:> <:NUM:> <:*:> <:*:> <:*:> blk <:*:>,"['temporary/', 'task', '200811092030', '0002', 'r', '000174', '0/part-00174.', '6048716917685366339']",Normal
+PacketResponder blk <:*:> <:NUM:> Exception java.net.SocketTimeoutException: <:NUM:> millis timeout while waiting for channel to be ready for read. ch : java.nio.channels.SocketChannel[connected local=/<:IP:>:<:NUM:> remote=/<:IP:>:<:NUM:>],"['-4567777441263358151', '2', '120000', '10.251.199.225', '50760', '10.251.107.227', '50010']",Anomaly
+PacketResponder blk <:*:> <:NUM:> Exception java.io.IOException: Broken pipe,"['-4567777441263358151', '0']",Anomaly
+Exception in receiveBlock for block blk <:*:> java.io.EOFException,['-4567777441263358151'],Anomaly
+PacketResponder blk -<:SEQ:> <:NUM:> Exception java.io.IOException: Connection reset by peer,"['4567777441263358151', '1']",Anomaly
+<:IP:>:<:NUM:>:Exception writing block blk <:*:> to mirror <:IP:>:<:NUM:>,"['10.251.199.225', '50010', '-4567777441263358151', '10.251.107.227', '50010']",Anomaly
+Exception in receiveBlock for block blk <:*:> java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[connected local=/<:IP:>:<:NUM:> remote=/<:IP:>:<:NUM:>]. <:NUM:> millis timeout left.,"['-4567777441263358151', '10.251.199.225', '50760', '10.251.107.227', '50010', '489959']",Anomaly
+writeBlock blk <:*:> received exception java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[connected local=/<:IP:>:<:NUM:> remote=/<:IP:>:<:NUM:>]. <:NUM:> millis timeout left.,"['-4567777441263358151', '10.251.199.225', '50760', '10.251.107.227', '50010', '489959']",Anomaly
+Changing block file offset of block blk <:*:> from <:NUM:> to <:NUM:> meta file offset to <:NUM:>,"['-4567777441263358151', '0', '53870592', '420871']",Anomaly
+BLOCK* NameSystem.addStoredBlock: addStoredBlock request received for blk <:*:> on <:IP:>:<:NUM:> size <:NUM:> But it does not belong to any file.,"['74623038764341097', '10.251.202.181', '50010', '67108864']",Anomaly
+BLOCK* NameSystem.allocateBlock: <:*:> logs/history/ip-<:NUM:>-<:NUM:>-<:NUM:>-<:NUM:>.ec2.internal <:NUM:> job <:NUM:> <:NUM:> conf.xml. blk <:*:>,"['/user/root/randtxt/', '10', '250', '19', '102', '1226291400491', '200811092030', '0003', '2281691379716824619']",Normal
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt/ temporary/ task <:NUM:> <:NUM:> m <:NUM:> <:NUM:>/part-<:NUM:>. blk <:NUM:>,"['200811092030', '0003', '000000', '0', '00000', '67897660915301271']",Normal
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt/ temporary/ task <:NUM:> <:NUM:> m <:NUM:> <:NUM:>/part-<:NUM:>. blk <:*:>,"['200811092030', '0003', '000001', '0', '00001', '-1355989227213695354']",Normal
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt/ <:*:> <:*:> <:*:> <:NUM:> <:*:> <:*:> <:*:> blk <:*:>,"['logs/history/ip-10-250-19-102.ec2.internal', '1226291400491', 'job', '200811092030', '0003', 'root', 'random-text-writer.', '1529526527776478280']",Normal
+<:IP:>:<:NUM:>:Failed to transfer blk <:*:> to <:IP:>:<:NUM:> got java.io.IOException: Connection reset by peer,"['10.251.74.227', '50010', '-2942077810471468030', '10.251.38.214', '50010']",Anomaly
+"writeBlock blk <:*:> received exception java.io.IOException: Block blk <:*:> is valid, and cannot be written to.","['-2942077810471468030', '-2942077810471468030']",Anomaly
+Exception in receiveBlock for block blk <:SEQ:> java.net.SocketTimeoutException: <:NUM:> millis timeout while waiting for channel to be ready for write. ch : java.nio.channels.SocketChannel[connected local=/<:IP:>:<:NUM:> remote=/<:IP:>:<:NUM:>],"['7008279672769077211', '490000', '10.251.42.191', '43873', '10.251.123.33', '50010']",Anomaly
+writeBlock blk <:SEQ:> received exception java.net.SocketTimeoutException: <:NUM:> millis timeout while waiting for channel to be ready for write. ch : java.nio.channels.SocketChannel[connected local=/<:IP:>:<:NUM:> remote=/<:IP:>:<:NUM:>],"['7008279672769077211', '490000', '10.251.42.191', '43873', '10.251.123.33', '50010']",Anomaly
+PacketResponder blk <:*:> <:NUM:> Exception java.io.IOException: Connection reset by peer,"['7008279672769077211', '1']",Anomaly
+Exception in receiveBlock for block blk <:*:> <:*:>,"['7008279672769077211', 'java.nio.channels.ClosedByInterruptException']",Anomaly
+Reopen Block blk <:SEQ:>,['7008279672769077211'],Anomaly
+PacketResponder blk <:*:> <:NUM:> Exception <:*:>,"['8085135783040518166', '1', 'java.nio.channels.ClosedByInterruptException']",Anomaly
+BLOCK* NameSystem.allocateBlock: /user/root/wcnt0/ logs/history/ip-<:NUM:>-<:NUM:>-<:NUM:>-<:NUM:>.ec2.internal <:NUM:> job <:NUM:> <:NUM:> root wordcount. blk <:SEQ:>,"['10', '250', '19', '102', '1226291400491', '200811092030', '0004', '6472345216722394764']",Normal
+BLOCK* NameSystem.allocateBlock: /user/root/wcnt0/ <:*:> <:*:> <:*:> <:NUM:> <:*:> <:*:> <:*:> blk <:*:>,"['temporary/', 'task', '200811092030', '0004', 'r', '000010', '0/part-00010.', '-727004361642948346']",Normal
+BLOCK* NameSystem.allocateBlock: /user/root/grep-temp-<:NUM:>/ logs/history/ip-<:NUM:>-<:NUM:>-<:NUM:>-<:NUM:>.ec2.internal <:NUM:> job <:NUM:> <:NUM:> root grep-search. blk -<:SEQ:>,"['1154544901', '10', '250', '19', '102', '1226291400491', '200811092030', '0005', '873783478854453054']",Normal
+BLOCK* NameSystem.allocateBlock: /user/root/grep-temp-<:NUM:>/ <:*:> <:*:> <:*:> <:NUM:> <:*:> <:*:> <:*:> blk <:*:>,"['1154544901', 'temporary/', 'task', '200811092030', '0005', 'r', '000000', '0/part-00000.', '3159295708294878046']",Normal
+BLOCK* NameSystem.allocateBlock: /user/root/grepa0/ logs/history/ip-<:NUM:>-<:NUM:>-<:NUM:>-<:NUM:>.ec2.internal <:NUM:> job <:NUM:> <:NUM:> root grep-sort. blk -<:SEQ:>,"['10', '250', '19', '102', '1226291400491', '200811092030', '0006', '7026470498327984283']",Normal
+BLOCK* NameSystem.allocateBlock: <:*:> logs/history/ip-<:NUM:>-<:NUM:>-<:NUM:>-<:NUM:>.ec2.internal <:NUM:> job <:NUM:> <:NUM:> root <:*:> blk -<:SEQ:>,"['/user/root/grep-temp-191616173/', '10', '250', '19', '102', '1226291400491', '200811092030', '0007', 'grep-search.', '6665318113054940301']",Normal
+BLOCK* NameSystem.allocateBlock: <:*:> logs/history/ip-<:NUM:>-<:NUM:>-<:NUM:>-<:NUM:>.ec2.internal <:NUM:> job <:NUM:> <:NUM:> root <:*:> blk <:*:>,"['/user/root/grep-temp-1416788589/', '10', '250', '19', '102', '1226291400491', '200811092030', '0009', 'grep-search.', '5678483308337211471']",Anomaly
+BLOCK* Removing block blk -<:SEQ:> from neededReplications as it does not belong to any file.,['3530301067936445915'],Anomaly
+BLOCK* Removing block blk <:*:> from neededReplications as it does not belong to any file.,['3570750915105748881'],Anomaly
+PendingReplicationMonitor timed out block blk -<:SEQ:>,['5057834626410636236'],Anomaly
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt2/ temporary/ task <:NUM:> <:NUM:> m <:NUM:> <:NUM:>/part-<:NUM:>. blk -<:SEQ:>,"['200811101024', '0002', '000169', '0', '00169', '4153538182158499938']",Normal
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt2/ temporary/ task <:NUM:> <:NUM:> m <:NUM:> <:NUM:>/part-<:NUM:>. blk <:*:>,"['200811101024', '0002', '000060', '0', '00060', '1052145861425824823']",Normal
+BLOCK* NameSystem.allocateBlock: <:*:> temporary/ task <:NUM:> <:NUM:> <:*:> <:NUM:> <:NUM:>/part-<:NUM:>. blk <:*:>,"['/user/root/sortrand2/', '200811101024', '0003', 'r', '000354', '0', '00354', '-806108926893367431']",Normal
+writeBlock blk <:*:> received exception java.net.SocketTimeoutException: <:NUM:> millis timeout while waiting for channel to be ready for <:*:> ch : java.nio.channels.SocketChannel[connected local=/<:IP:>:<:NUM:> remote=/<:IP:>:<:NUM:>],"['-516029862489211143', '60000', 'read.', '10.251.197.161', '44245', '10.251.123.33', '50010']",Anomaly
+writeBlock blk -<:SEQ:> received exception java.io.IOException: Interrupted receiveBlock,['4250706752040073149'],Anomaly
+PacketResponder blk -<:SEQ:> <:NUM:> Exception java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[closed]. <:NUM:> millis timeout left.,"['4250706752040073149', '1', '59985']",Anomaly
+PendingReplicationMonitor timed out block blk <:*:>,['7507915719221132002'],Anomaly
+writeBlock blk <:*:> received exception <:*:> <:*:> <:*:> <:*:> <:*:>,"['1684134505299265593', 'java.net.NoRouteToHostException:', 'No', 'route', 'to', 'host']",Anomaly
+writeBlock blk <:*:> received exception java.io.IOException: <:*:> <:*:>,"['6189089042276997489', 'Broken', 'pipe']",Anomaly
+PacketResponder blk <:*:> <:NUM:> Exception java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[connected local=/<:IP:>:<:NUM:> remote=/<:IP:>:<:NUM:>]. <:NUM:> millis timeout left.,"['-370867073208864215', '1', '10.251.126.227', '37330', '10.251.30.179', '50010', '36411']",Anomaly
+Adding an already existing block blk -<:SEQ:>,['2074647664485597823'],Anomaly
+Reopen Block blk <:*:>,['-7052911997539087826'],Anomaly
+Adding an already existing block blk <:*:>,['5697572983288390847'],Anomaly
+Exception in receiveBlock for block blk -<:SEQ:> java.io.IOException: Broken pipe,['6994808880344424033'],Anomaly
+Exception in receiveBlock for block blk <:*:> java.net.SocketTimeoutException: <:NUM:> millis timeout while waiting for channel to be ready for write. ch : java.nio.channels.SocketChannel[connected local=/<:IP:>:<:NUM:> remote=/<:IP:>:<:NUM:>],"['-6363674043695218814', '490000', '10.250.15.101', '33683', '10.251.107.50', '50010']",Anomaly
+Exception in receiveBlock for block blk <:*:> java.io.IOException: Broken pipe,['7160764053931337311'],Anomaly
+PacketResponder blk <:*:> <:NUM:> Exception java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[closed]. <:NUM:> millis timeout left.,"['8895996987918469659', '1', '59852']",Anomaly
+PacketResponder blk <:*:> <:NUM:> Exception java.io.IOException: <:*:> <:*:> <:*:> <:*:>,"['8006271611835981128', '1', 'The', 'stream', 'is', 'closed']",Anomaly
